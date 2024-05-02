@@ -1,6 +1,6 @@
 ---
-title: Welcome to my project
+title: LeagyInovation
 ---
 
-# Introducción
-Este projecto se busco dentro de codigo viejo/obsoleto, y fue la base para desarrollar buenas practicas a lo largo de todo el semestre. Siempre buscando aplicarlas o creando supociciones de como direccionarlo, hablando un poco mas del juego es el buscaminas de toda la vida; esta desarrollado sobre C# y es bastante simple de entender aunque complejo de ejecutar. A lo largo de todo el semestre se han aplivado practicas de clean code, eliminacion de code smells, pruebas unitarias, eliminacion de arquitecture smells entre otros, siempre buscando la mejor forma de implementar todo el conocimiento que adquiri durante el semestre
+¡Bienvenidos a nuestro blog! Este es un espacio dedicado a todos los apasionados de la tecnología y la programación, especialmente aquellos que están interesados en la mejora continua y la calidad del software.
+Este blog es un testimonio de cómo un proyecto legacy puede ser transformado en un código más limpio, eficiente y amigable, aplicando principios y técnicas de la ingeniería de software moderna. A lo largo de nuestras publicaciones, compartiremos nuestros aprendizajes, desafíos y soluciones, con el objetivo de proporcionar una guía práctica y útil para aquellos que se enfrentan a retos similares.
