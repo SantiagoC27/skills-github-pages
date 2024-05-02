@@ -1,5 +1,5 @@
 ---
-title: Minando Código: De Legacy a Legendario
+title: Minando Codigo De Legacy a Legendario
 ---
 
 ¡Bienvenidos a nuestro blog! Este es un espacio dedicado a todos los apasionados de la tecnología y la programación, especialmente aquellos que están interesados en la mejora continua y la calidad del software.
