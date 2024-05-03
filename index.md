@@ -15,11 +15,12 @@ El resultado es un código más limpio y amigable que no sólo funciona de maner
 
 A continuación, compartire más detalles sobre este proceso y los desafíos que enfrente durante esta transformación. ¡Acompañame en este viaje y descubre cómo un viejo juego de Buscaminas puede convertirse en un ejemplo de código limpio y moderno!
 
+![image](https://github.com/SantiagoC27/skills-github-pages/assets/89257540/d60e2421-7e82-4cb7-98b9-23059238adf5)
+![image](https://github.com/SantiagoC27/skills-github-pages/assets/89257540/27a253a2-0afb-4cbb-98d3-194711930a1b)
+
 ### Code Smells
 
 * Problema 1 (Falta de documentacion y pruebas)
-  > ![image](https://github.com/SantiagoC27/skills-github-pages/assets/89257540/d60e2421-7e82-4cb7-98b9-23059238adf5)
-  > ![image](https://github.com/SantiagoC27/skills-github-pages/assets/89257540/27a253a2-0afb-4cbb-98d3-194711930a1b)
   
    ```C#
      public class FieldModel : IFieldModel
@@ -49,7 +50,7 @@ A continuación, compartire más detalles sobre este proceso y los desafíos que
   > ~~FielValidator.cs~~
 * Problema 3 Mejoras de rendimiento
   
-  ```C
+  ```C#
     /// <summary>
     /// Counts the number of adjacent mines to a square and replace the dot character with this number. 
     /// </summary>
@@ -90,14 +91,9 @@ A continuación, compartire más detalles sobre este proceso y los desafíos que
 
 ### Buenas practicas
 
-Nombres significativos
-Funciones
-Comentarios
-Formato
-Simplicidad del código
-Principio de Responsabilidad Única
-Tratamiento de errores
-DRY (Don't Repeat Yourself)
-Desarrollo basado en pruebas (TDD)
-Integración continua (IC)
-Refactorización
+| Lo Bueno        | Recomendaciones         |
+|:-----------------|:------------------|
+| Nombres significativos           | Principio de Responsabilidad Única |
+| Funciones | Tratamiento de errores  |
+| Formato            | DRY (Don't Repeat Yourself)   |
+| Simplicidad del código           | Implementar Interfaz |
