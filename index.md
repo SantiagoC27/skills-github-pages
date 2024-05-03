@@ -2,7 +2,7 @@
 # Minando Codigo De Legacy a Legendario
 
 
-¡Bienvenidos a nuestra exposición! Este es un foro creado para todos los entusiastas de la tecnología y la programación, con un enfoque especial en aquellos que buscan la mejora continua y la excelencia en el software. Esta exposición es una demostración de cómo un proyecto heredado puede ser transformado en un código más limpio, eficiente y accesible, mediante la aplicación de principios y técnicas de la ingeniería de software moderna. A través de nuestras presentaciones, compartiremos nuestros descubrimientos, desafíos y soluciones, con la intención de ofrecer una guía práctica y valiosa para aquellos que se enfrentan a desafíos similares.
+¡Bienvenidos a esta exposición! Este es una mini reseña creada para todos los entusiastas de la tecnología y la programación, con un enfoque especial en aquellos que buscan la mejora continua y la excelencia en el software. Esta exposición es una demostración de cómo un proyecto heredado puede ser transformado en un código más limpio, eficiente y accesible, mediante la aplicación de principios y técnicas de la ingeniería de software moderna. Compartire con ustedes descubrimientos, desafíos y soluciones, con la intención de ofrecer una guía práctica y valiosa para aquellos que se enfrentan a desafíos similares.
 
 
 ## MinesweeperGame
@@ -16,9 +16,9 @@ El resultado es un código más limpio y amigable que no sólo funciona de maner
 A continuación, compartire más detalles sobre este proceso y los desafíos que enfrente durante esta transformación. ¡Acompañame en este viaje y descubre cómo un viejo juego de Buscaminas puede convertirse en un ejemplo de código limpio y moderno!
 
 
-![image](https://github.com/SantiagoC27/skills-github-pages/assets/89257540/d60e2421-7e82-4cb7-98b9-23059238adf5)
+![Octocat](https://github.com/SantiagoC27/skills-github-pages/assets/89257540/d60e2421-7e82-4cb7-98b9-23059238adf5)
 
-![image](https://github.com/SantiagoC27/skills-github-pages/assets/89257540/27a253a2-0afb-4cbb-98d3-194711930a1b)
+> ![Branching](https://github.com/SantiagoC27/skills-github-pages/assets/89257540/27a253a2-0afb-4cbb-98d3-194711930a1b)
 
   
 ### Code Smells
@@ -109,3 +109,20 @@ A continuación, compartire más detalles sobre este proceso y los desafíos que
 | Funciones | Tratamiento de errores  |
 | Formato            | DRY (Don't Repeat Yourself)   |
 | Simplicidad del código           | Implementar Interfaz |
+
+* * *
+
+### Lo mejor de este proyecto
+1. GitHub Pages
+   
+   ![image](https://github.com/SantiagoC27/skills-github-pages/assets/89257540/ad4e2daf-f23d-4ead-94d3-6b333a0d66c5)
+
+2. CI
+
+  ![image](https://github.com/SantiagoC27/skills-github-pages/assets/89257540/46273a49-0b57-4659-88c1-52fdeae08be1)
+
+  >![image](https://github.com/SantiagoC27/skills-github-pages/assets/89257540/31548fc9-1747-4aa8-a815-36493d8bb7b9)
+
+3. Entendimiento de las buenas practicas
+
+   ![image](https://github.com/SantiagoC27/skills-github-pages/assets/89257540/ecaadd93-fba1-4fd7-a964-422ce4364233)
