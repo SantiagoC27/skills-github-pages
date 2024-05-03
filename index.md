@@ -25,7 +25,7 @@ A continuación, compartire más detalles sobre este proceso y los desafíos que
 
 * Problema 1 (Falta de documentacion y pruebas)
   
-   ```C#
+   ```C
      public class FieldModel : IFieldModel
       {
           private SquareModel[,] mineField { get; set; }
@@ -56,7 +56,7 @@ A continuación, compartire más detalles sobre este proceso y los desafíos que
   > ~~FielValidator.cs~~
 * Problema 3 Mejoras de rendimiento
   
-  ```C#
+  ```C
     /// <summary>
     /// Counts the number of adjacent mines to a square and replace the dot character with this number. 
     /// </summary>
