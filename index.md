@@ -17,45 +17,47 @@ A continuación, compartire más detalles sobre este proceso y los desafíos que
 
 
 > ![image](https://github.com/SantiagoC27/skills-github-pages/assets/89257540/d60e2421-7e82-4cb7-98b9-23059238adf5)
-> ![image](https://github.com/SantiagoC27/skills-github-pages/assets/89257540/27a253a2-0afb-4cbb-98d3-194711930a1b)
+
 
   
 ### Code Smells
 
 * Problema 1 (Falta de documentacion y pruebas)
-  
-   ```C
-     public class FieldModel : IFieldModel
-      {
-          private SquareModel[,] mineField { get; set; }
-          private int rows { get; set; }
-          private int cols { get; set; }
-  
-          private readonly SquareModel square = new SquareModel();
-  
-          /// <summary>
-          /// Object Field
-          /// </summary>
-          /// <param name="rows">Total rows.</param>
-          /// <param name="cols">Total cols.</param>
-          /// <param name="squaresMatrix">Squares matrix.</param>
-          public FieldModel(int rows, int cols, SquareModel[,] squaresMatrix)
-          {
-              this.Rows = rows;
-              this.Cols = cols;
-              this.mineField = squaresMatrix;
-          }
-       }
-   ```
+* 
+![image](https://github.com/SantiagoC27/skills-github-pages/assets/89257540/27a253a2-0afb-4cbb-98d3-194711930a1b)
    
-
 ![image](https://github.com/SantiagoC27/skills-github-pages/assets/89257540/697aecc6-de10-4964-807b-0a5bde471078)
 
 * Problema 2 (Clase Dios)
   > ~~FielValidator.cs~~
+  > 
+  ```C#
+       public class FieldModel : IFieldModel
+        {
+            private SquareModel[,] mineField { get; set; }
+            private int rows { get; set; }
+            private int cols { get; set; }
+    
+            private readonly SquareModel square = new SquareModel();
+    
+            /// <summary>
+            /// Object Field
+            /// </summary>
+            /// <param name="rows">Total rows.</param>
+            /// <param name="cols">Total cols.</param>
+            /// <param name="squaresMatrix">Squares matrix.</param>
+            public FieldModel(int rows, int cols, SquareModel[,] squaresMatrix)
+            {
+                this.Rows = rows;
+                this.Cols = cols;
+                this.mineField = squaresMatrix;
+            }
+         }
+  ```
+  
 * Problema 3 Mejoras de rendimiento
   
-  ```C
+  ```C#
     /// <summary>
     /// Counts the number of adjacent mines to a square and replace the dot character with this number. 
     /// </summary>
