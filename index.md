@@ -32,27 +32,37 @@ A continuación, compartire más detalles sobre este proceso y los desafíos que
   > ~~FielValidator.cs~~
   
   ```C#
-       public class FieldModel : IFieldModel
+    public class FieldValidator : IFieldValidator
+    {
+
+        /// <summary>
+        /// Checks if rows and cols choosed by user are valid.
+        /// </summary>
+        /// <param name="inputArgs">Input arguments</param>
+        /// <returns>Array that holds the rows and colums or null if the input arguments are invalid.</returns> 
+        public int[] checkRowsCols()
         {
-            private SquareModel[,] mineField { get; set; }
-            private int rows { get; set; }
-            private int cols { get; set; }
-    
-            private readonly SquareModel square = new SquareModel();
-    
-            /// <summary>
-            /// Object Field
-            /// </summary>
-            /// <param name="rows">Total rows.</param>
-            /// <param name="cols">Total cols.</param>
-            /// <param name="squaresMatrix">Squares matrix.</param>
-            public FieldModel(int rows, int cols, SquareModel[,] squaresMatrix)
+
+            int[] rowsCols = null;
+
+            int rows, cols;
+            rows = cols = 0;
+
+            // read the line from user input
+            string inputLine = Console.ReadLine();
+
+            // splits line on spaces
+            string[] inputArgs = inputLine.Split(' ');
+
+            // check null or length input arguments (the numbers must be two)
+            if (inputArgs == null || inputArgs.Length != 2)
             {
-                this.Rows = rows;
-                this.Cols = cols;
-                this.mineField = squaresMatrix;
+                printMessage(MessageModel.INVALID_ARGUMENTS_NUMBER);
+                printMessage(MessageModel.PRESS_ANY_KEY_TO_EXIT);
+                Environment.Exit(0);
             }
-         }
+        }
+    }
   ```
   
 * Problema 3 Mejoras de rendimiento
