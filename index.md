@@ -15,13 +15,11 @@ El resultado es un código más limpio y amigable que no sólo funciona de maner
 
 A continuación, compartire más detalles sobre este proceso y los desafíos que enfrente durante esta transformación. ¡Acompañame en este viaje y descubre cómo un viejo juego de Buscaminas puede convertirse en un ejemplo de código limpio y moderno!
 
-<p align="center">
-  <img src="https://github.com/SantiagoC27/skills-github-pages/assets/89257540/d60e2421-7e82-4cb7-98b9-23059238adf5" alt="Code1") />
-</p>
 
-<p align="center">
-  <img src="https://github.com/SantiagoC27/skills-github-pages/assets/89257540/27a253a2-0afb-4cbb-98d3-194711930a1b" alt="Code2") />
-</p>
+![image](https://github.com/SantiagoC27/skills-github-pages/assets/89257540/d60e2421-7e82-4cb7-98b9-23059238adf5)
+
+![image](https://github.com/SantiagoC27/skills-github-pages/assets/89257540/27a253a2-0afb-4cbb-98d3-194711930a1b)
+
   
 ### Code Smells
 
@@ -51,9 +49,8 @@ A continuación, compartire más detalles sobre este proceso y los desafíos que
        }
    ```
    
-<p align="center">
-  <img src="https://github.com/SantiagoC27/skills-github-pages/assets/89257540/697aecc6-de10-4964-807b-0a5bde471078" alt="Run1") />
-</p>
+
+![image](https://github.com/SantiagoC27/skills-github-pages/assets/89257540/697aecc6-de10-4964-807b-0a5bde471078)
 
 * Problema 2 (Clase Dios)
   > ~~FielValidator.cs~~
@@ -96,17 +93,13 @@ A continuación, compartire más detalles sobre este proceso y los desafíos que
 * Problema 6 Manejo de errores
   > _Environment.Exit(0)_
 
-  <p align="center">
-    <img src="https://github.com/SantiagoC27/skills-github-pages/assets/89257540/6ecbe80e-66e2-48b3-bdee-0f8de6310ae9" alt="Exit1") />
-  </p>
+![image](https://github.com/SantiagoC27/skills-github-pages/assets/89257540/6ecbe80e-66e2-48b3-bdee-0f8de6310ae9)
 
   
 * Problema 8 UI Expirience
   > _Console.ReadLine()_
 
-  <p align="center">
-    <img src="https://github.com/SantiagoC27/skills-github-pages/assets/89257540/ed0f00e0-e2cd-40bb-8eac-088da92df748" alt="Exit2") />
-  </p>
+![image](https://github.com/SantiagoC27/skills-github-pages/assets/89257540/ed0f00e0-e2cd-40bb-8eac-088da92df748)
 
 ### Buenas practicas
 
