@@ -65,42 +65,6 @@ A continuación, compartire más detalles sobre este proceso y los desafíos que
     }
   ```
   
-* Problema 3 Mejoras de rendimiento
-  
-  ```C#
-    /// <summary>
-    /// Counts the number of adjacent mines to a square and replace the dot character with this number. 
-    /// </summary>
-    /// <param name="row">Square row.</param>
-    /// <param name="col">Square col.</param>
-    /// <returns>The square value after replacing the dot characters</returns>
-    public string adjacentsMines(int row, int col)
-    {
-        if (this.mineField[row, col].squareValue == this.square.dotValue)
-        {
-            int[] directionRow = { 1, 1, 1, 0, -1, -1, -1, 0 };
-            int[] directionCol = { 1, 0, -1, -1, -1, 0, 1, 1 };
-            int minesCounter = 0;
-
-            for (int direction = 0; direction < directionRow.Length; direction++)
-            {
-                int newRow = directionRow[direction] + row;
-                int newCol = directionCol[direction] + col;
-                if (this.checkBounds(newRow, newCol))
-                {
-                    if (this.mineField[newRow, newCol].mineFound)
-                    {
-                        minesCounter++;
-                    }
-                }
-            }
-
-            if (this.mineField[row, col].squareValue != this.square.mineValue)
-                this.mineField[row, col].squareValue = Convert.ToString(minesCounter);
-        }
-        return this.mineField[row, col].squareValue;
-    }
-  ```
 * Problema 6 Manejo de errores
   > _Environment.Exit(0)_
 
@@ -116,7 +80,7 @@ A continuación, compartire más detalles sobre este proceso y los desafíos que
 
 | Lo Bueno        | Recomendaciones         |
 |:-----------------|:------------------|
-| Nombres significativos           | Principio de Responsabilidad Única |
+| Nombres significativos           | Integración continua (IC) |
 | Funciones | Tratamiento de errores  |
 | Formato            | DRY (Don't Repeat Yourself)   |
 | Simplicidad del código           | Implementar Interfaz |
@@ -132,7 +96,7 @@ A continuación, compartire más detalles sobre este proceso y los desafíos que
 
   ![image](https://github.com/SantiagoC27/skills-github-pages/assets/89257540/46273a49-0b57-4659-88c1-52fdeae08be1)
 
-  >![image](https://github.com/SantiagoC27/skills-github-pages/assets/89257540/31548fc9-1747-4aa8-a815-36493d8bb7b9)
+  ![image](https://github.com/SantiagoC27/skills-github-pages/assets/89257540/31548fc9-1747-4aa8-a815-36493d8bb7b9)
 
 3. Entendimiento de las buenas practicas
 
