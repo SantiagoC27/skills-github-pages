@@ -7,7 +7,7 @@
 
 ## MinesweeperGame
 
-daremos inicio a la aventura de transformar un proyecto legacy, específicamente un juego de Buscaminas, en un código más limpio y eficiente. Con las técnicas y herramientas adecuadas, un código antiguo y desordenado puede convertirse en un código moderno y de alta calidad.
+Daremos inicio a la aventura de transformar un proyecto legacy, específicamente un juego de Buscaminas, en un código más limpio y eficiente. Con las técnicas y herramientas adecuadas, un código antiguo y desordenado puede convertirse en un código moderno y de alta calidad.
 
 En el contexto de la materia **“Calidad de Software y Gestión de Deuda Técnica”**, nos enfrentamos al desafío de mejorar este juego de Buscaminas que presentaba problemas comunes en el código antiguo. Aplicamos diversas técnicas y buenas prácticas, incluyendo la implementación de pruebas unitarias y la reestructuración del código, para hacerlo más legible, mantenible y escalable.
 
