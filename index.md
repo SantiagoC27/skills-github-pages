@@ -88,16 +88,16 @@ A continuación, compartire más detalles sobre este proceso y los desafíos que
 * * *
 
 ### Lo mejor de este proyecto
-1. GitHub Pages
+* GitHub Pages
    
    ![image](https://github.com/SantiagoC27/skills-github-pages/assets/89257540/ad4e2daf-f23d-4ead-94d3-6b333a0d66c5)
 
-2. CI
+* CI
 
   ![image](https://github.com/SantiagoC27/skills-github-pages/assets/89257540/46273a49-0b57-4659-88c1-52fdeae08be1)
 
   ![image](https://github.com/SantiagoC27/skills-github-pages/assets/89257540/31548fc9-1747-4aa8-a815-36493d8bb7b9)
 
-3. Entendimiento de las buenas practicas
+* Entendimiento de las buenas practicas
 
    ![image](https://github.com/SantiagoC27/skills-github-pages/assets/89257540/ecaadd93-fba1-4fd7-a964-422ce4364233)
