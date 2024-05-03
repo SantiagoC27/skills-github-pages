@@ -17,16 +17,50 @@ A continuación, compartire más detalles sobre este proceso y los desafíos que
 
 ### Code Smells
 
->Problema 1 (Falta de documentacion y pruebas)
->Problema 2 (Clase Dios)
->Problema 3 Mejoras de rendimiento 
->Problema 4 Numeros máicos
->Problema 5 Valores codificados 
->Problema 6 Manejo de errores
->Problema 7 Principio de responsabilidad unica
->Problema 8 UI Expirience
->Problema 9 Logica repetida
->Problema 10 Copia superficial
+* Problema 1 (Falta de documentacion y pruebas)
+  > ![image](https://github.com/SantiagoC27/skills-github-pages/assets/89257540/d60e2421-7e82-4cb7-98b9-23059238adf5)
+  > ![image](https://github.com/SantiagoC27/skills-github-pages/assets/89257540/27a253a2-0afb-4cbb-98d3-194711930a1b)
+   ```C#
+       public class FieldModel : IFieldModel
+    {
+        private SquareModel[,] mineField { get; set; }
+        private int rows { get; set; }
+        private int cols { get; set; }
+
+        private readonly SquareModel square = new SquareModel();
+
+        /// <summary>
+        /// Object Field
+        /// </summary>
+        /// <param name="rows">Total rows.</param>
+        /// <param name="cols">Total cols.</param>
+        /// <param name="squaresMatrix">Squares matrix.</param>
+        public FieldModel(int rows, int cols, SquareModel[,] squaresMatrix)
+        {
+            this.Rows = rows;
+            this.Cols = cols;
+            this.mineField = squaresMatrix;
+        }
+   }
+   ```
+* Problema 2 (Clase Dios)
+* 
+* Problema 3 Mejoras de rendimiento
+* 
+* Problema 4 Numeros máicos
+* 
+* Problema 5 Valores codificados
+* 
+* Problema 6 Manejo de errores
+* 
+* Problema 7 Principio de responsabilidad unica
+* 
+* Problema 8 UI Expirience
+* 
+* Problema 9 Logica repetida
+* 
+* Problema 10 Copia superficial
+* 
 
 ### Buenas practicas
 
