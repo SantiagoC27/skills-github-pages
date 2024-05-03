@@ -20,47 +20,73 @@ A continuación, compartire más detalles sobre este proceso y los desafíos que
 * Problema 1 (Falta de documentacion y pruebas)
   > ![image](https://github.com/SantiagoC27/skills-github-pages/assets/89257540/d60e2421-7e82-4cb7-98b9-23059238adf5)
   > ![image](https://github.com/SantiagoC27/skills-github-pages/assets/89257540/27a253a2-0afb-4cbb-98d3-194711930a1b)
+  
    ```C#
-       public class FieldModel : IFieldModel
-    {
-        private SquareModel[,] mineField { get; set; }
-        private int rows { get; set; }
-        private int cols { get; set; }
-
-        private readonly SquareModel square = new SquareModel();
-
-        /// <summary>
-        /// Object Field
-        /// </summary>
-        /// <param name="rows">Total rows.</param>
-        /// <param name="cols">Total cols.</param>
-        /// <param name="squaresMatrix">Squares matrix.</param>
-        public FieldModel(int rows, int cols, SquareModel[,] squaresMatrix)
-        {
-            this.Rows = rows;
-            this.Cols = cols;
-            this.mineField = squaresMatrix;
-        }
-   }
+     public class FieldModel : IFieldModel
+      {
+          private SquareModel[,] mineField { get; set; }
+          private int rows { get; set; }
+          private int cols { get; set; }
+  
+          private readonly SquareModel square = new SquareModel();
+  
+          /// <summary>
+          /// Object Field
+          /// </summary>
+          /// <param name="rows">Total rows.</param>
+          /// <param name="cols">Total cols.</param>
+          /// <param name="squaresMatrix">Squares matrix.</param>
+          public FieldModel(int rows, int cols, SquareModel[,] squaresMatrix)
+          {
+              this.Rows = rows;
+              this.Cols = cols;
+              this.mineField = squaresMatrix;
+          }
+       }
    ```
+   
 * Problema 2 (Clase Dios)
-* 
+  > ~~FielValidator.cs~~
 * Problema 3 Mejoras de rendimiento
-* 
-* Problema 4 Numeros máicos
-* 
-* Problema 5 Valores codificados
-* 
+  
+  ```C
+    /// <summary>
+    /// Counts the number of adjacent mines to a square and replace the dot character with this number. 
+    /// </summary>
+    /// <param name="row">Square row.</param>
+    /// <param name="col">Square col.</param>
+    /// <returns>The square value after replacing the dot characters</returns>
+    public string adjacentsMines(int row, int col)
+    {
+        if (this.mineField[row, col].squareValue == this.square.dotValue)
+        {
+            int[] directionRow = { 1, 1, 1, 0, -1, -1, -1, 0 };
+            int[] directionCol = { 1, 0, -1, -1, -1, 0, 1, 1 };
+            int minesCounter = 0;
+
+            for (int direction = 0; direction < directionRow.Length; direction++)
+            {
+                int newRow = directionRow[direction] + row;
+                int newCol = directionCol[direction] + col;
+                if (this.checkBounds(newRow, newCol))
+                {
+                    if (this.mineField[newRow, newCol].mineFound)
+                    {
+                        minesCounter++;
+                    }
+                }
+            }
+
+            if (this.mineField[row, col].squareValue != this.square.mineValue)
+                this.mineField[row, col].squareValue = Convert.ToString(minesCounter);
+        }
+        return this.mineField[row, col].squareValue;
+    }
+  ```
 * Problema 6 Manejo de errores
-* 
-* Problema 7 Principio de responsabilidad unica
-* 
+  > _Environment.Exit(0)_
 * Problema 8 UI Expirience
-* 
-* Problema 9 Logica repetida
-* 
-* Problema 10 Copia superficial
-* 
+  > _Console.ReadLine()_
 
 ### Buenas practicas
 
