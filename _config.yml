@@ -2,7 +2,7 @@ title: CSDT
 author: Santiago Cardenas
 description: Escuela Colombiana de Ingenieria Julio Garavito
 
-show_downloads: "false"
+show_downloads: false
 
 remote_theme: pages-themes/hacker@v0.2.0
 plugins:
