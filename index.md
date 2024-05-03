@@ -23,14 +23,14 @@ A continuación, compartire más detalles sobre este proceso y los desafíos que
 ### Code Smells
 
 * Problema 1 (Falta de documentacion y pruebas)
-* 
+  
 ![image](https://github.com/SantiagoC27/skills-github-pages/assets/89257540/27a253a2-0afb-4cbb-98d3-194711930a1b)
    
 ![image](https://github.com/SantiagoC27/skills-github-pages/assets/89257540/697aecc6-de10-4964-807b-0a5bde471078)
 
 * Problema 2 (Clase Dios)
   > ~~FielValidator.cs~~
-  > 
+  
   ```C#
        public class FieldModel : IFieldModel
         {
